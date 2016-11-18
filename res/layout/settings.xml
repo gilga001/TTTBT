@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout_buttons_container"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
@@ -34,13 +34,13 @@
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linearLayout_top"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <TextView
             android:id="@+id/settings_heading_1"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/SELECT_BACKGROUND"
             android:layout_marginBottom="1dp"
@@ -53,7 +53,7 @@
 
         <ListView
             android:id="@+id/settings_bg_list"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content" 
             
             >
@@ -62,13 +62,13 @@
 
     <LinearLayout
         android:id="@+id/linearLayout_bottom"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
 		<TextView
             android:id="@+id/settings_heading_2"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:paddingLeft="5dp"
             android:layout_height="wrap_content"
             android:text="@string/SELECT_ICON"
@@ -81,7 +81,7 @@
 		
         <ListView
             android:id="@+id/settings_icon_list"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
         </ListView>
     </LinearLayout>
